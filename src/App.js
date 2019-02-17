@@ -17,7 +17,7 @@ class App extends Component {
     this.ENSContract.options.address = '0x6090A6e47849629b7245Dfa1Ca21D94cd15878Ef';
 
     this.state = {
-      bidRevealed: [], //array to store all bid revealed events in the las 2 weeks
+      bidRevealed: [], //array to store all bid revealed events in the last 2 weeks
       currentBlock: 0, //to store the current (last) block
     };
   }
