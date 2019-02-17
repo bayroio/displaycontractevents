@@ -23,7 +23,7 @@ class App extends Component {
   }
 
   /*
-  This functions is called when the button "Display Bid Reveal Events" was clickced
+  This function is called when the button "Display Bid Reveal Events" was clicked
   */
   displayLastBidRevealedEvents = async() => {
     let lastBlock;
